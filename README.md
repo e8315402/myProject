@@ -6,31 +6,8 @@ Follow the steps to complete settings. You need to setup the compile environment
 This project is only used to create the environment, you should clean it when HW1.
 
 #### Updata
- * Thu Sep 14 2017 14:56:35
- 
-	 Modify makefile.
-
-	 Notice that Mac's googleTest installation guide, the command should be amended.
-	 ```Shell
-	 Original:
-	 sudo cp -r gtest-1.7.0/include /usr/local/Cellar/gtest/
-
-	 Modified:
-	 sudo cp -r gtest-1.7.0/include/ /usr/local/Cellar/
-	 ```
- 
- * Wed Sep 13 2017 14:12:35
- 
-	 About \<studentId\>, you should replace whole brackets not just "studentId". That is ok on email subject , but you should be careful the webhook.
-
-	  ```
-	  Good:
-	  http://140.124.181.114:8080/buildByToken/build?job=1055980XX&token=1055980XX
-
-	  Bad:
-	  http://140.124.181.114:8080/buildByToken/build?job=<1055980XX>&token=<1055980XX>
-	  ```
-	And about your own repository, if you want to test your CI job is setup or not: init your repository and place this project's file, commit and push a simple change, and go to CI server to check the job result.
+ * Fri Sep 15 2017 11:22:16
+ When your try to download googleTest on googleTest github page, you should download [the release](https://github.com/google/googletest/releases). Do not use respository url.
 
 ## 1. How to set up everything on your PC
 
@@ -42,6 +19,14 @@ This project is only used to create the environment, you should clean it when HW
 
 * [Windows 10 / Ubuntu](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/)
 * [Mac](https://gist.github.com/massenz/41bb2c8375294f4d9927)
+    Notice that Mac's googleTest installation guide, the command should be amended.
+     ```Shell
+     Original:
+     sudo cp -r gtest-1.7.0/include /usr/local/Cellar/gtest/
+     
+     Modified:
+     sudo cp -r gtest-1.7.0/include/ /usr/local/Cellar/
+     ```
 * [Windows 7](https://github.com/iat-cener/tonatiuh/wiki/Installing-Google-Test-For-Windows)
 
 ### Running the tests
@@ -101,5 +86,30 @@ If you want to test your CI job is setup or not: init your repository and place 
 
 And if you have some problems that you really don't know why and how to solve it, email us: posd2017f@gmail.com or come to 1321 in office hours (Fri. 2pm to 4pm).
 
+### Update History
+ * Thu Sep 14 2017 14:56:35
+     
+     Modify makefile.
+     
+     Notice that Mac's googleTest installation guide, the command should be amended.
+     ```Shell
+     Original:
+     sudo cp -r gtest-1.7.0/include /usr/local/Cellar/gtest/
+     
+     Modified:
+     sudo cp -r gtest-1.7.0/include/ /usr/local/Cellar/
+     ```
 
+ * Wed Sep 13 2017 14:12:35
+ 
+     About \<studentId\>, you should replace whole brackets not just "studentId". That is ok on email subject , but you should be careful the webhook.
+      
+      ```
+      Good:
+      http://140.124.181.114:8080/buildByToken/build?job=1055980XX&token=1055980XX
+      
+      Bad:
+      http://140.124.181.114:8080/buildByToken/build?job=<1055980XX>&token=<1055980XX>
+      ```
+    And about your own repository, if you want to test your CI job is setup or not: init your repository and place this project's file, commit and push a simple change, and go to CI server to check the job result.
 
