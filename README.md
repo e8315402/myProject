@@ -6,6 +6,11 @@ Follow the steps to complete settings. You need to setup the compile environment
 This project is only used to create the environment, you should clean it when HW1.
 
 #### Updata
+
+ * Fri Sep 15 2017 13:45:26
+ 
+	And for CI job building, we recommend you do not put the build files (*.o, executable file) into github. You can use [.gitignore](https://www.google.com.tw/search?q=gitignore) to avoid it.
+
  * Fri Sep 15 2017 11:22:16
  
 	When your try to download googleTest on googleTest github page, you should download [the release](https://github.com/google/googletest/releases). Do not use respository url.
