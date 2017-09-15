@@ -7,6 +7,7 @@ This project is only used to create the environment, you should clean it when HW
 
 #### Updata
  * Fri Sep 15 2017 11:22:16
+ 
  When your try to download googleTest on googleTest github page, you should download [the release](https://github.com/google/googletest/releases). Do not use respository url.
 
 ## 1. How to set up everything on your PC
@@ -19,6 +20,7 @@ This project is only used to create the environment, you should clean it when HW
 
 * [Windows 10 / Ubuntu](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/)
 * [Mac](https://gist.github.com/massenz/41bb2c8375294f4d9927)
+
     Notice that Mac's googleTest installation guide, the command should be amended.
      ```Shell
      Original:
@@ -27,6 +29,7 @@ This project is only used to create the environment, you should clean it when HW
      Modified:
      sudo cp -r gtest-1.7.0/include/ /usr/local/Cellar/
      ```
+     
 * [Windows 7](https://github.com/iat-cener/tonatiuh/wiki/Installing-Google-Test-For-Windows)
 
 ### Running the tests
