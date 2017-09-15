@@ -8,7 +8,7 @@ This project is only used to create the environment, you should clean it when HW
 #### Updata
  * Fri Sep 15 2017 11:22:16
  
- When your try to download googleTest on googleTest github page, you should download [the release](https://github.com/google/googletest/releases). Do not use respository url.
+	When your try to download googleTest on googleTest github page, you should download [the release](https://github.com/google/googletest/releases). Do not use respository url.
 
 ## 1. How to set up everything on your PC
 
